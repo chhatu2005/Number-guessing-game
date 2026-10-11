@@ -1,0 +1,142 @@
+
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body 
+{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(120deg, #af2ea2, #5d6021);
+}
+
+.container 
+{
+    width: 100%;
+    max-width: 450px;
+    text-align: center;
+}
+
+h1 
+{
+    color: rgb(227, 221, 221);
+    font-size: 30px;
+    margin-bottom: 12px;
+}
+
+.subtitle 
+{
+    color: #242425;
+    margin-bottom: 25px;
+}
+
+.game-card 
+{
+    background: #eee;
+    padding: 30px 25px;
+    border-radius: 20px;
+}
+
+label 
+{
+    display: block;
+    text-align: left;
+    color: #333;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input 
+{
+    width: 100%;
+    padding: 14px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    font-size: 16px;
+    outline: none;
+    margin-bottom: 15px;
+}
+
+button 
+{
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 10px;
+    background: #667eea;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover 
+{
+    background: #5145cd;
+}
+
+#message {
+    margin: 22px 0;
+    color: #5145cd;
+    font-size: 17px;
+    font-weight: bold;
+    min-height: 22px;
+}
+
+.attempt-box 
+{
+    background-color: #dcdee7;
+    padding: 15px;
+    border-radius: 12px;
+    margin-bottom: 18px;
+}
+
+.attempt-box span 
+{
+    color: #555;
+}
+
+.attempt-box h2 
+{
+    color: #5145cd;
+    font-size: 30px;
+    margin-top: 5px;
+}
+
+#playAgainBtn 
+{
+    background: #16a085;
+}
+
+#playAgainBtn:hover 
+{
+    background: #12806b;
+}
+
+#playAgainBtn[hidden] 
+{
+    display: none;
+}
+
+.hint 
+{
+    color: rgb(23, 22, 22);
+    margin-top: 20px;
+    font-size: 17px;
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 25px;
+    }
+
+    .game-card {
+        padding: 25px 18px;
+    }
+}
